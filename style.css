@@ -1,0 +1,120 @@
+nav{
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+}
+sup{
+    background-color: #FF8C00;
+    color: #fff;
+    padding: 4px;
+    border-radius: 8px;
+}
+.search_bar{
+    display: flex;
+    justify-content: center;
+}
+.btn-search{
+    background: #007bff;
+}
+/* .main_carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(133, 30, 30);
+    height: 310px;
+    margin-top: 50px;
+} */
+.main_carousel{
+    height: 327px;
+   
+}
+.fa-chevron-circle-left , .fa-chevron-circle-right{
+    color: #000;
+}
+.internships{
+    margin-top: 150px;
+}
+.link{
+   /* margin-left: 700px; */
+   text-decoration: none;
+}
+.cities{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.cards:hover{
+    /* box-shadow: 0px 0px 10px 0px rgba(87,75,75,0.5);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(87,75,75,0.5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(87,75,75,0.5); */
+    box-shadow: 0px 0px 10px 0px rgba(87,75,75,0.3);
+-webkit-box-shadow: 0px 0px 10px 0px rgba(87,75,75,0.3);
+-moz-box-shadow: 0px 0px 10px 0px rgba(87,75,75,0.3);
+    color: #007bff;
+    cursor: pointer;
+}
+.categories{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.trainings{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.fresher_job{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+#footer{
+    background-color: #333;
+    color: #fff;
+}
+#footer a{
+    color: #fff;
+    text-decoration: none;
+  
+}
+.footer_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+}
+#android_app_container{
+    border: 1px solid #eee;
+    width: 170px;
+    padding: 10px;
+}
+#social_media_container{
+    padding-left: 200px;
+}
+#copyright{
+    padding-left: 75%;
+}
+#social_media_container{
+    margin-top: -40px;
+}
+@media screen and (max-width:767px) {
+    .cards{
+        border: 1px solid #eee;
+        margin: 5px;
+    }
+    .footer-list{
+        padding: 30px;
+    }
+    #copyright{
+        margin-top: 20px;
+        padding-left: 20%;
+    }
+    .internships{
+        margin-top: -100px;
+    }
+}
